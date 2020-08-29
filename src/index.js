@@ -1,34 +1,56 @@
-// Import React and ReactDOM libraries
 import React from "react";
 import ReactDOM from "react-dom";
+import faker from "faker";
 
-function getButtonText() {
-  return "Click upon me!";
-}
-// Create react component
 const App = () => {
-  const buttonText = "Click Me!";
-  const buttonTextObject = { text: "Click Object!" };
-  const style = { backgroundColor: "purple", color: "white" };
   return (
-    <div>
-      <label className="label" htmlFor="name">
-        Enter name:
-      </label>
-      <input id="name" type="text" />
-      <button style={{ backgroundColor: "green", color: "white" }}>
-        Submit
-      </button>
-      <button style={{ backgroundColor: "blue", color: "white" }}>
-        {buttonText}
-      </button>
-      <button style={{ backgroundColor: "red", color: "white" }}>
-        {getButtonText()}
-      </button>
-      <button style={style}>{buttonTextObject.text}</button>
+    <div className="ui container comments">
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img alt="avatar" src={faker.image.avatar()} />
+        </a>
+        <div className="content">
+          <a href="/" className="author">
+            noble_porpoise
+          </a>
+          <div className="metadata">
+            <span className="date">Today at 1:58pm</span>
+          </div>
+          <div className="text">I did it!</div>
+        </div>
+      </div>
+
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img alt="avatar" src={faker.image.avatar()} />
+        </a>
+        <div className="content">
+          <a href="/" className="author">
+            minister_of_waffles
+          </a>
+          <div className="metadata">
+            <span className="date">Today at 2:30pm</span>
+          </div>
+          <div className="text">Wow!</div>
+        </div>
+      </div>
+
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img alt="avatar" src={faker.image.avatar()} />
+        </a>
+        <div className="content">
+          <a href="/" className="author">
+            thefursausage
+          </a>
+          <div className="metadata">
+            <span className="date">Today at 3:46pm</span>
+          </div>
+          <div className="text">Proud of u!</div>
+        </div>
+      </div>
     </div>
   );
 };
 
-// Display component on screen
 ReactDOM.render(<App />, document.querySelector("#root"));
