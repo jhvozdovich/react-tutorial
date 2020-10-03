@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Modern React with Redux Lessons**
 
-## Available Scripts
+#### Author: **Jessica Hvozdovich**
 
-In the project directory, you can run:
+#### August 29, 2020
 
-### `yarn start`
+### Description
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_Lessons from the Modern React with Redux Udemy course - MuvnDay internship training and continuing education lessons. The course can be found [here](https://www.udemy.com/course/react-redux/)_
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Instructions for use:
 
-### `yarn test`
+1. Open Terminal (macOS) or PowerShell (Windows)
+2. To download the project Directory to your desktop enter the following commands:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd Desktop
+git clone https://github.com/jhvozdovich/react-tutorial.git
+cd react-tutorial
+```
 
-### `yarn build`
+3. To view the downloaded files, open them in a text editor or IDE of your choice.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- if you have VSCode for example, when your terminal is within the main project Directory you can open all of the files with the command:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+code .
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Download node and node package manager if they are not already installed on your device. You can find further instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript-8d3b52cf-3755-481d-80c5-46f1d3a8ffeb/installing-node-js-14f2721a-61e0-44b3-af1f-73f17348c8f4).
+6. Run npm install in your terminal to download the necessary dependencies, plugins, and modules.
 
-### `yarn eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+6. The command npm run start will build and open the compiled code in a browser of your choice using a local host.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+7. Different lessons are separated in the \_lesson directories. To run different projects simply move its inner "src" folder outside into the root directory. Take care to only have one "src" out to run at a time.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Known Bugs
 
-## Learn More
+No bugs have been identified at the time of this update.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Support and Contact Information
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please contact me with any suggestions or questions at jhvozdovich@gmail.com. Thank you for your input!  
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/react-tutorial/issues) here on GitHub._
 
-### Code Splitting
+### Technologies Used
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- JavaScript
+- React
+- HTML
+- Git and GitHub
 
-### Analyzing the Bundle Size
+#### License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This software is licensed under the MIT license.
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright © 2020 **_Jessica Hvozdovich and Dan Merys_**
